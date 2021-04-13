@@ -1,0 +1,94 @@
+.cd-stretchy-nav img {
+  width: auto;
+  height: 5rem;
+}
+
+.cd-stretchy-nav {
+  padding: 1%;
+  background-color: rgba(159, 159, 177, 0.2);
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+.cd-stretchy-nav button {
+  background-color: lightseagreen;
+  color: black;
+  width: auto;
+  height: 3rem;
+  float: right;
+}
+
+.cd-stretchy-nav span {
+  padding: 0.5rem;
+}
+
+.nav {
+  margin-left: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#home button {
+  background-color: lightseagreen;
+  color: black;
+  width: 21%;
+  height: auto;
+}
+
+#home {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-flow: column;
+  color: black;
+  background-image: url("../images/541463.jpg");
+  background-size: cover;
+  background-repeat: none;
+  width: auto;
+  height: 25rem;
+}
+
+button[name=create] {
+  background-color: orange !important;
+  color: black !important;
+  width: 40%;
+  height: 40%;
+}
+
+#footer {
+  background-color: blue;
+  color: white;
+}
+
+.title {
+  margin: 5%;
+  line-height: 5%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 5%;
+  height: 5%;
+  margin: 1%;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.colu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+}
+
+/*# sourceMappingURL=main.css.map */
