@@ -1,16 +1,14 @@
 .cd-stretchy-nav img {
-  width: auto;
-  height: 5rem;
+  height: 2rem;
 }
 
 .cd-stretchy-nav {
-  padding: 1%;
   background-color: rgba(159, 159, 177, 0.2);
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 1%;
 }
 
 .cd-stretchy-nav button {
@@ -47,9 +45,8 @@
   color: black;
   background-image: url("../images/541463.jpg");
   background-size: cover;
+  padding: 10%;
   background-repeat: none;
-  width: auto;
-  height: 25rem;
 }
 
 button[name=create] {
@@ -59,13 +56,58 @@ button[name=create] {
   height: 40%;
 }
 
+.formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  margin: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.recherche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.filtre {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: black 1px solid;
+}
+
+.cards {
+  border: solid 1px black;
+}
+
+.col-4 {
+  border: black 2px solid;
+  display: flex;
+  flex-flow: column;
+  width: 10rem;
+  height: auto;
+}
+
+.col-4 img {
+  width: 100%;
+  height: 50%;
+}
+
 #footer {
   background-color: blue;
   color: white;
 }
 
 .title {
-  margin: 5%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 5%;
   line-height: 5%;
 }
 
@@ -76,8 +118,8 @@ button[name=create] {
 }
 
 .logo img {
-  width: 5%;
-  height: 5%;
+  width: 2%;
+  height: 2%;
   margin: 1%;
   background-color: white;
   border-radius: 100%;

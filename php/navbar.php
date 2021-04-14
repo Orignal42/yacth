@@ -5,8 +5,8 @@
    </a>
 
    
-      <a href="#0" class="active"><span>Home</span></a>
-      <a href="#0"><span>Find a Yatch</span></a>
+      <a href="/index.php" class="active"><span>Home</span></a>
+      <a href="../php/yatch.php"><span>Find a Yatch</span></a>
       <a href="#0"><span>About us</span></a>
       <a href="#0"><span>Contact</span></a>
       <a href="#0"><span>Blog</span></a>

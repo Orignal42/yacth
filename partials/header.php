@@ -7,16 +7,16 @@
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
 
     <title>yatch</title>
-    <link href="css/main.css"rel="stylesheet" >
+    <link href="/YatchPrestige/css/main.css"rel="stylesheet" >
 
     <nav class="cd-stretchy-nav">
         
-        <img src="images/icone.jpg"> 
+        <img src="/YatchPrestige/images/icone.jpg"> 
         
 
             <div class="nav">
-            <a href="#0" class="active"><span>Home</span></a>
-            <a href="#0"><span>Find a Yatch</span></a>
+            <a href="/YatchPrestige/index.php"><span>Home</span></a>
+            <a href="/YatchPrestige/php/yatch.php"><span>Find a Yatch</span></a>
             <a href="#0"><span>About us</span></a>
             <a href="#0"><span>Contact</span></a>
             <a href="#0"><span>Blog</span></a>
