@@ -7,7 +7,7 @@
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
 
     <title>yatch</title>
-    <link href="/YatchPrestige/css/sty.css"rel="stylesheet" >
+    <link href="/YatchPrestige/css/cody-house.css"rel="stylesheet" >
     <link href="/YatchPrestige/css/main.css"rel="stylesheet" >
 
     <nav class="cd-stretchy-nav">

@@ -33,11 +33,15 @@
   align-items: center;
 }
 
-#home button {
+button[name=rouroune] {
+  width: 10rem;
+  height: 2rem;
   background-color: lightseagreen;
   color: black;
-  width: 5rem;
-  height: auto;
+}
+
+input[name=mail] {
+  height: 2rem;
 }
 
 #home {
@@ -50,24 +54,47 @@
   color: black;
   background-image: url("../images/541463.jpg");
   background-size: cover;
-  padding: 10%;
+  padding: 5%;
   background-repeat: none;
 }
 
 button[name=create] {
+  width: 15rem;
+  height: 12rem;
   background-color: orange !important;
   color: black !important;
-  width: 50rem;
-  height: 51rem;
 }
 
 .formulaire {
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items: center;
+  border: blue solid 2rem;
+}
+
+input {
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+select {
+  margin: 1rem;
+  height: 3rem;
+  width: 10rem;
+}
+
+.formulaire button {
+  background-color: gold;
+  height: 3rem;
+  width: 10rem;
 }
 
 .recherche {
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
   align-items: center;
   color: black;
 }
@@ -75,8 +102,25 @@ button[name=create] {
 .filtre {
   display: flex;
   justify-content: space-around;
+  flex-flow: wrap;
   align-items: center;
   border: black 1px solid;
+}
+
+.listcards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.infos {
+  border: black solid 1px;
 }
 
 #footer {
@@ -84,35 +128,32 @@ button[name=create] {
   color: white;
 }
 
-.title {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 5%;
-  line-height: 5%;
-}
-
 .logo {
+  margin-left: 20rem;
   display: flex;
+  flex-flow: row;
   align-items: center;
   justify-content: center;
 }
 
 .logo img {
-  width: 2%;
-  height: 2%;
+  width: 4rem;
+  height: 4rem;
   margin: 1%;
   background-color: white;
   border-radius: 100%;
 }
 
-.colu {
+.colonne {
+  margin-left: 15rem;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
+  flex-flow: row;
   align-items: center;
-  margin-left: 2%;
+}
+
+.liste {
+  display: flex;
+  flex-flow: row;
 }
 
 /*# sourceMappingURL=main.css.map */

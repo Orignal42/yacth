@@ -1,9 +1,13 @@
 
- #home button{
+ button[name="rouroune"]{
+    width: 10rem;
+    height: 2rem;
     background-color: lightseagreen;
     color: black;
-    width: 5rem;
-   height: auto;
+}
+input[name='mail']{
+   height: 2rem;
+
 }
 
 #home {
@@ -16,7 +20,7 @@
    color: black;
    background-image: url("../images/541463.jpg");
    background-size: cover;
-   padding: 10%;
+   padding: 5%;
    background-repeat: none;
    
    
@@ -24,9 +28,9 @@
 }
 
 button[name="create"]{
-
+   width: 15rem;
+   height: 12rem;
    background-color: orange !important;
    color:black !important;
-   width: 50rem;
-   height: 51rem;  
+  
  }
