@@ -1,0 +1,32 @@
+#footer{
+    background-color: blue;
+    color: white;
+}
+.title{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 5%;
+    line-height: 5%;
+}
+.logo{
+   
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+width: 2%;
+height: 2%;
+margin: 1%;
+background-color: white;
+border-radius: 100%;
+}
+.colu{
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+margin-left: 2%;
+}

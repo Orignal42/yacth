@@ -1,0 +1,32 @@
+
+ #home button{
+    background-color: lightseagreen;
+    color: black;
+    width: 5rem;
+   height: auto;
+}
+
+#home {
+   width: auto;
+   height: 20rem;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   flex-flow: column;
+   color: black;
+   background-image: url("../images/541463.jpg");
+   background-size: cover;
+   padding: 10%;
+   background-repeat: none;
+   
+   
+   
+}
+
+button[name="create"]{
+
+   background-color: orange !important;
+   color:black !important;
+   width: 50rem;
+   height: 51rem;  
+ }

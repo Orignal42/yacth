@@ -13,7 +13,8 @@
 <div class="colu">
 <?php for($i=0 ;$i<4 ; $i++) {
 echo
-"<div class='title'>
+
+"<div class='col-4'>
 
 <h5>TITLE BLOC</h5>
 <p>Link One</p>
