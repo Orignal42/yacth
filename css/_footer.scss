@@ -1,14 +1,13 @@
 #footer{
-    background-color: blue;
+    background-color:blue;
     color: white;
    
 }
 .logo{   
-    margin-left:20rem ;
-    display: flex;
-    flex-flow: row;   
+     display: flex;
+    flex-flow: row wrap;   
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .logo img{
 width: 4rem;
@@ -17,16 +16,14 @@ margin: 1%;
 background-color: white;
 border-radius: 100%;
 }
-.colonne{
-    margin-left: 15rem;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
 
-}
+   .colonne{
+       display: flex;
+       justify-content: space-between;
+   }
 .liste{
     display: flex;
     flex-flow: row;
- 
+    justify-content: space-around;
     
 }

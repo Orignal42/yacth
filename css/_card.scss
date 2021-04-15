@@ -9,12 +9,36 @@ justify-content: space-between;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    
+ 
+    }
+  
+    .carte{
+        border: black 1px solid;
+    }
+    .cart {
+        margin: 1%;
+        border: black 1px solid;
+        color: black !important ;
     }
 
-
+    
 .infos{
+    margin-top: 1%;
+}
+.offre{
+    margin-top:3rem ;
 border: black solid 1px;
+}
 
-
+.pub{
+    margin-top: 20rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+ 
+    border: black 1px solid;
+}
+.pub img{
+    height: auto;
+    width: auto;
 }

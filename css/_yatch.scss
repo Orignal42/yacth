@@ -31,7 +31,7 @@ select{
     justify-content: center;
     flex-flow: wrap;
     align-items: center;
-    color: black;
+    color: black !important ;
 }
 .filtre{
     display: flex;
@@ -39,4 +39,5 @@ select{
     flex-flow: wrap;
     align-items: center;
     border: black 1px solid;
+    color: black !important ;
 }

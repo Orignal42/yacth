@@ -7,7 +7,10 @@
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
 
     <title>yatch</title>
+<!-- CSS only -->
+
     <link href="/YatchPrestige/css/cody-house.css"rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
     <link href="/YatchPrestige/css/main.css"rel="stylesheet" >
 
     <nav class="cd-stretchy-nav">
@@ -18,7 +21,7 @@
             <div class="nav">
             <a href="/YatchPrestige/index.php"><span>Home</span></a>
             <a href="/YatchPrestige/php/yatch.php"><span>Find a Yatch</span></a>
-            <a href="#0"><span>About us</span></a>
+            <a href="/YatchPrestige/php/aboutus.php"><span>About us</span></a>
             <a href="#0"><span>Contact</span></a>
             <a href="#0"><span>Blog</span></a>
             <a href="#0"><span>Legal mentions</span></a>

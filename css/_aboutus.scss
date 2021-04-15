@@ -1,0 +1,29 @@
+
+
+.carousel1{
+  background: #EEE;
+
+}
+
+.carousel-cell1{
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  width: 100%; 
+
+}
+.carousel-cell1 img{
+    width: 1200rem;
+    height: 20rem;
+}
+
+
+/* cell number */
+.carousel-cell1:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+

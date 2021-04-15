@@ -32,7 +32,6 @@
         <p>PERS. A BORD&#x25B2; &#x25BC;</p>
         DISPONIBILITE <input type="checkbox">
     </div>
-
   <?php include 'card.php'?> 
   <?php include  'carrousselle.php'?>
 
