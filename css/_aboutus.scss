@@ -32,18 +32,18 @@
   color: white;
 }
 .tabulations{
-
   border: 1px solid black;
-  
+ 
 }
 
-.cygnus{
-  display: flex;
-  flex-flow: row;
-}
+
 
 .command {
+  float: right;
+  display: flex;
+  flex-flow: column;
   border: black 1px solid;
+
 
 }
 h3{
@@ -51,16 +51,8 @@ color: gold;
 }
 
 
-.dispo{
-display: flex;
-flex-flow: row wrap;
 
-}
 
-.aboutus{
-  margin-left: 10%;
-  margin-right: 10%;
-}
 .dispo{
 
   display: flex;

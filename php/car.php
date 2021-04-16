@@ -5,7 +5,8 @@
             <input type="date" >
             <button>VERIFIER</button>
             <button>BOOK NOW</button>
-         </div>
+</div>
+         
          <h1>Les autres yatchs de cette taille</h1>
 <div class="carousel3" data-flickity>
 
