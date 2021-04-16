@@ -28,10 +28,10 @@
               <p>42 mètre</p>
   
                 <select name="nbre" id="nbre">
-                <option value="nbre de personnes">Choississez le nombre:</option>
-                <option value="1-5">1-5</option>
-                <option value="5-10">5-10</option>
-                <option value="10-15">10-15</option>
+                <option value="nbre de personnes">Choississez:</option>
+                <option value="1-5">1-5 pers.</option>
+                <option value="5-10">5-10 pers.</option>
+                <option value="10-15">10-15 pers.</option>
            </div>  
 
           </div> 

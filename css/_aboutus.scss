@@ -53,8 +53,12 @@ h3{
 color: gold; 
 }
 
-
-
+.command{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .dispo{
 
