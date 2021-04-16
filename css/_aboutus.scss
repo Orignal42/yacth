@@ -1,5 +1,10 @@
 
-
+.cygnus{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: center;
+}
 .carousel1{
   background: #EEE;
 
@@ -26,4 +31,41 @@
   font-size: 80px;
   color: white;
 }
+.tabulations{
 
+  border: 1px solid black;
+  
+}
+
+.cygnus{
+  display: flex;
+  flex-flow: row;
+}
+
+.command {
+  border: black 1px solid;
+
+}
+h3{
+color: gold; 
+}
+
+
+.dispo{
+display: flex;
+flex-flow: row wrap;
+
+}
+
+.aboutus{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.dispo{
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+}

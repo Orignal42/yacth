@@ -35,7 +35,7 @@ Main components
   position: relative;
   width: 90%;
   max-width: 960px;
-  margin: 2em auto;
+ 
 }
 .cd-tabs:after {
   content: "";
@@ -137,7 +137,6 @@ Main components
   position: absolute;
   top: 12px;
   left: 50%;
-  margin-left: -10px;
   display: inline-block;
   height: 20px;
   width: 20px;
@@ -219,8 +218,7 @@ Main components
   }
   .cd-tabs-navigation a::before {
     top: 50%;
-    margin-top: -10px;
-    margin-left: 0;
+   
     left: 38px;
   }
 }
@@ -243,7 +241,7 @@ Main components
   font-size: 0.875rem;
   line-height: 1.6;
   color: #8493bf;
-  margin-bottom: 2em;
+
 }
 @media only screen and (min-width: 768px) {
   .cd-tabs-content {
@@ -289,4 +287,22 @@ Main components
   100% {
     opacity: 1;
   }
+}
+
+
+.unicode{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.uni{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+width: 5rem;
+height: 3rem;
+border-radius: 20%;
 }

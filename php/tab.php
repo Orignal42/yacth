@@ -2,10 +2,10 @@
 	<nav>
 		<ul class="cd-tabs-navigation">
 		
-			<li><a data-content="new" href="#0">OPTIONS</a></li>
-			<li><a data-content="gallery" href="#0">DISPONIBILITE</a></li>
-			<li><a data-content="store" href="#0">EQUIPAGE</a></li>
-			<li><a data-content="settings" href="#0">GALERIE PHOTOS</a></li>
+			<li><a data-content="options" href="#0">OPTIONS</a></li>
+			<li><a data-content="dispo" href="#0">DISPONIBILITE</a></li>
+			<li><a data-content="crew" href="#0">EQUIPAGE</a></li>
+			<li><a data-content="gallery" href="#0">GALERIE PHOTOS</a></li>
 	
 		</ul> <!-- cd-tabs-navigation -->
 	</nav>
@@ -13,28 +13,37 @@
 	<ul class="cd-tabs-content">
 		
 
-		<li data-content="new">
+		<li data-content="options">
 			<p>New Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a voluptatibus, ex odit totam cumque nihil eos asperiores ea, labore rerum. Doloribus tenetur quae impedit adipisci, laborum dolorum eaque ratione quaerat, eos dicta consequuntur atque ex facere voluptate cupiditate incidunt.</p>
 
 			<p>New Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non a voluptatibus, ex odit totam cumque nihil eos asperiores ea, labore rerum. Doloribus tenetur quae impedit adipisci, laborum dolorum eaque ratione quaerat, eos dicta consequuntur atque ex facere voluptate cupiditate incidunt.</p>
+			<div class="unicode">
+			<div class="uni">&#128719; 80</div>  <div class="uni"> 👥 50 </div> <div class="uni">&#127860; 3 </div><div class="uni">&#x2693;3</div><div class="uni">&#128437;7</div>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<?xml version="1.0" encoding="UTF-8"?>
+<div class="uni"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20pt" height="20pt" viewBox="0 0 20 20" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 9.921875 0.308594 C 4.613281 0.308594 0.308594 4.613281 0.308594 9.921875 C 0.308594 15.226562 4.613281 19.53125 9.921875 19.53125 C 15.226562 19.53125 19.53125 15.226562 19.53125 9.921875 C 19.53125 4.613281 15.226562 0.308594 9.921875 0.308594 Z M 16.652344 4.941406 L 14.195312 7.398438 C 13.769531 6.679688 13.160156 6.074219 12.441406 5.648438 L 14.898438 3.191406 C 15.566406 3.683594 16.15625 4.273438 16.652344 4.941406 Z M 9.921875 13.640625 C 7.867188 13.640625 6.199219 11.972656 6.199219 9.921875 C 6.199219 7.867188 7.867188 6.199219 9.921875 6.199219 C 11.972656 6.199219 13.640625 7.867188 13.640625 9.921875 C 13.640625 11.972656 11.972656 13.640625 9.921875 13.640625 Z M 4.941406 3.191406 L 7.398438 5.648438 C 6.679688 6.070312 6.074219 6.679688 5.648438 7.398438 L 3.191406 4.941406 C 3.683594 4.273438 4.273438 3.683594 4.941406 3.191406 Z M 3.191406 14.898438 L 5.648438 12.441406 C 6.070312 13.160156 6.679688 13.769531 7.398438 14.195312 L 4.941406 16.652344 C 4.273438 16.15625 3.683594 15.566406 3.191406 14.898438 Z M 14.898438 16.652344 L 12.441406 14.195312 C 13.160156 13.769531 13.769531 13.160156 14.195312 12.441406 L 16.652344 14.898438 C 16.15625 15.566406 15.566406 16.15625 14.898438 16.652344 Z M 14.898438 16.652344 "/>
+</g>
+</svg>
+</svg>1</div>
+		</div>
 		</li>
 
-		<li data-content="gallery">
+		<li data-content="dispo">
 		<iframe src="https://calendar.google.com/calendar/embed?src=rbarriquand%40gmail.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 		</li>
 
-		<li data-content="store">
-			<p>Store Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum recusandae rem animi accusamus quisquam reprehenderit sed voluptates, numquam, quibusdam velit dolores repellendus tempora corrupti accusantium obcaecati voluptate totam eveniet laboriosam?</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, enim, pariatur. Ab assumenda, accusantium! Consequatur magni placeat quae eos dicta, cum expedita sunt facilis est impedit possimus dolorum sequi nostrum nobis sit praesentium molestias nulla laudantium fugit corporis nam ut saepe harum ipsam? Debitis accusantium, omnis repudiandae modi, distinctio illo voluptatibus aperiam odio veritatis, quam perferendis eaque ullam. Temporibus tempore ad voluptates explicabo ea sit deleniti ipsum quos dolores tempora odio, ab corporis molestiae, eaque optio, perferendis! Cumque libero quia modi! Totam magni rerum id iusto explicabo distinctio, magnam, labore sed nemo expedita velit quam, perspiciatis non temporibus sit minus voluptatum. Iste, cumque sunt suscipit facere iusto asperiores, ullam dolorum excepturi quidem ea quibusdam deserunt illo. Nesciunt voluptates repellat ipsam.</p>
+		<li data-content="crew">
+			<?php @include 'crew.php' ?>
+			
 		</li>
 
-		<li data-content="settings">
-			<p>Settings Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nam magni, ullam nihil a suscipit, ex blanditiis, adipisci tempore deserunt maiores. Nostrum officia, ratione enim eaque nihil quis ea, officiis iusto repellendus. Animi illo in hic, maxime deserunt unde atque a nesciunt? Non odio quidem deserunt animi quod impedit nam, voluptates eum, voluptate consequuntur sit vel, et exercitationem sint atque dolores libero dolorem accusamus ratione iste tenetur possimus excepturi. Accusamus vero, dignissimos beatae tempore mollitia officia voluptate quam animi vitae.</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsam eum reprehenderit minima at sapiente ad ipsum animi doloremque blanditiis unde omnis, velit molestiae voluptas placeat qui provident ab facilis.</p>
-		</li>
+		<li class="gallery" data-content="gallery">
+		<?php @include 'carrou.php' ?>
+	</li>
 
 	
 	</ul> <!-- cd-tabs-content -->
+	
 </div> <!-- cd-tabs -->

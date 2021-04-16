@@ -1,0 +1,37 @@
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* prevent vertical scroll bar glitch */
+html { overflow-y: scroll; }
+
+.carousel3 {
+  background: #EEE;
+
+}
+
+.carousel-cell3 {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+
+  margin-right: 10px;
+  border-radius: 5px;
+  
+  width: 100%; 
+}
+
+h1{
+  color: blue;
+}
+
+/* cell number */
+// .carousel-cell:before {
+//   display: block;
+//   text-align: center;
+//   line-height: 200px;
+//   font-size: 80px;
+//   color: white;
+// }
