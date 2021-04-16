@@ -27,8 +27,6 @@
               <h4>Le Cygnus</h4>
               <p>42 mètre</p>
   
-                <input type="date">
-                <input type="date" >
                 <select name="nbre" id="nbre">
                 <option value="nbre de personnes">Choississez le nombre:</option>
                 <option value="1-5">1-5</option>
